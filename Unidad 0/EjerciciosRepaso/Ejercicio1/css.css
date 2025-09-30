@@ -1,0 +1,68 @@
+body h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#tabla {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th {
+    border: 1px solid black;
+    height: 70px;
+    text-align: center;
+}
+
+tr {
+    border: 1px solid black;
+    height: 70px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    height: 70px;
+    text-align: center;
+}
+
+.hora {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.AaD {
+    background-color: cornflowerblue;
+}
+.DIN {
+    background-color: chartreuse;
+}
+
+.ING {
+    background-color: blueviolet;
+}
+
+.OPT {
+    background-color: chocolate;
+}
+
+.IPE {
+    background-color: deeppink;
+}
+
+.SGE {
+    background-color: indianred;
+}
+
+.PMD {
+    background-color: gold;
+}
+
+.PSP {
+    background-color: lightgreen;
+}
+
+.PRO {
+    background-color: lightyellow;
+}
