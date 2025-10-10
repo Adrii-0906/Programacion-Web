@@ -1,0 +1,33 @@
+body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton {
+    background-color: #6666d5;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+table {
+    border-collapse: collapse; margin-top: 10px;
+}
+td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: center;
+    width: 100px;
+}
