@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio4</title>
+        <link rel="stylesheet" href="css4.css">
+    </head>
+    <body>
+    <!--Crear una web que tenga cuatro divs y un cuadro de lista desplegable que tenga las siguientes opciones red, blue, green, lightgrey. Codificar una función que para el evento onchange del cuadro de lista cambie el color de fondo de los divs.-->
+
+    <h1>Cambiar el color de los divs</h1>
+
+    <label for="selectorColores">Escoge un color: </label>
+    <select id="selectorColores" onChange="cambiarColor()" >
+        <option value="red">Rojo</option>
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+        <option value="lightgrey">GrisClaro</option>
+    </select>
+
+    <div class="container"> </div>
+    <div class="container"> </div>
+    <div class="container"> </div>
+    <div class="container"> </div>
+
+
+    <script src="js4.js"></script>
+    </body>
+</html>

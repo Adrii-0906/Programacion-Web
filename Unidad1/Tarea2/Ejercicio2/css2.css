@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    text-align: center;
+}
+
+div {
+    margin-top: 5%;
+}

@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    text-align: center;
+}
+
+div {
+    margin-top: 5%;
+}
+
+#boton1 {
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 20px;
+    color: white;
+}
