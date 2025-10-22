@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio7</title>
+        <link rel="stylesheet" href="css7.css">
+    </head>
+    <body>
+    <!--Crear una web que tenga un cuadro de texto y en su evento onchange cree una tabla mediante un bucle con una columna y en las filas insertamos los números pares existentes entre 0 y el valor introducido en el cuadro de texto.-->
+
+    <h1>Generador de Números Pares</h1>
+
+    <label for="numero">Introduce un número límite:</label>
+    <input type="number" id="numero" placeholder="Introduce un numero par" onchange="crearTablasPares()">
+
+    <div id="tabla">
+        <p>Introduce un número y haz clic fuera para generar la tabla.</p>
+    </div>
+    <script src="js7.js"></script>
+    </body>
+</html>
