@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio10</title>
+        <link rel="stylesheet" href="css10.css">
+    </head>
+    <body>
+        <!-- Crear un script que pida al usuario mediante dos cuadros de texto un número de filas y columnas y dibuje una tabla html con dicho número de filas y columnas. Además las filas pares e impares serán de diferente color. -->
+
+        <h1>Creador de tablas diferenciando filas pares e impares</h1>
+
+        <div id="container">
+            <label for="numerosCol">Dime cuantas columnas quieres</label>
+            <input type="number" id="numerosCol" class="datos">
+
+            <label for="numerosFil">Dime cuantas filas quieres</label>
+            <input type="number" id="numerosFil" class="datos">
+
+        </div>
+        <button type="button" id="crear" onclick="crearTabla()">Crear Tabla</button>
+
+        <div id="containerTabla"></div>
+        <script src="js10.js"></script>
+    </body>
+</html>

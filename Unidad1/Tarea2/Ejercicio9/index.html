@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejericicio9</title>
+        <link rel="stylesheet" href="css9.css">
+    </head>
+    <body>
+        <!-- Modificar el ejercicio anterior para que aparte de mostrar el fondo en rojo también muestre al lado del cuadro el texto “El campo es requerido o es un número” -->
+
+        <h1 id="titulo">Validacion de Formulario(Solo Texto)</h1>
+
+        <form id="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" class="datos" placeholder="Introduce tu nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" class="datos" placeholder="Introduce tu apellido">
+
+            <label for="numeroTelefono">Numero de telefono</label>
+            <input type="text" id="numeroTelefono" class="datos" placeholder="Introduce tu numero de telefono">
+
+            <label for="fechaNac">Fecha de nacimiento</label>
+            <input type="text" id="fechaNac" class="datos" placeholder="Introduce tu fecha de nacimiento">
+        </form>
+
+        <button type="button" id="validar" onclick="validarTexto()">Validar Formulario</button>
+
+        <script src="js9.js"></script>
+    </body>
+</html>
