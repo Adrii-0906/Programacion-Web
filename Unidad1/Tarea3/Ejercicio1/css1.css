@@ -1,0 +1,18 @@
+body {
+}
+
+h1 {
+    text-align: center;
+}
+
+#contador {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6fa0ea;
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 50px;
+    z-index: 1000;
+}

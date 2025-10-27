@@ -39,7 +39,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/snap/webstorm/529/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/snap/webstorm/541/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,7 +54,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
       </set>
     </attachedChunks>
   </component>
@@ -70,6 +70,7 @@
       <workItem from="1761039523616" duration="3644000" />
       <workItem from="1761157342663" duration="1924000" />
       <workItem from="1761222607381" duration="8086000" />
+      <workItem from="1761292284359" duration="1248000" />
     </task>
     <servers />
   </component>
