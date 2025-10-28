@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 6</title>
+        <link rel="stylesheet" href="css6.css">
+    </head>
+    <body>
+        <!-- Implementar una web que haga las funciones de un cronómetro. Se añadirá un botón desde el que poder iniciar o reanudar el cronómetro, otro botón para parar el cronómetro y otro para resetear los valores y ponerlos a 0. -->
+        <h1>Cronometro</h1>
+
+        <div id="contenedor">
+            <div id="divCronometro">
+                00:00:00
+            </div>
+            <div id="botones">
+                <button type="button" class="boton" onclick = "iniciarReaundar()">
+                    Iniciar/Reanudar
+                </button>
+                <button type="button" class="boton" onclick = "parar()">
+                    Parar
+                </button>
+
+                <button type="button" class="boton" onclick = "resetear()">
+                    Resetear
+                </button>
+            </div>
+        </div>
+        <script src="js6.js"></script>
+    </body>
+</html>

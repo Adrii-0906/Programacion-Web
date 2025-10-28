@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 7</title>
+        <link rel="stylesheet" href="css7.css">
+    </head>
+    <body>
+        <!-- Modificar el ejercicio anterior para que cada vez que se pare el cronómetro se vayan guardando en un div los tiempos de parada. -->
+        <h1>Cronometro</h1>
+
+        <div id="contenedor">
+            <div id="divCronometro">
+                00:00:00
+            </div>
+            <div id="botones">
+                <button type="button" class="boton" onclick = "iniciarReaundar()">
+                    Iniciar/Reanudar
+                </button>
+                <button type="button" class="boton" onclick = "parar()">
+                    Parar
+                </button>
+
+                <button type="button" class="boton" onclick = "resetear()">
+                    Resetear
+                </button>
+            </div>
+             <h1>Tiempos de parada</h1>
+            <div id="tiempoParada">
+
+            </div>
+        </div>
+        <script src="js7.js"></script>
+    </body>
+</html>

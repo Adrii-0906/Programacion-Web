@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedor {
+    margin-top: 2%;
+}
+
+#divCronometro {
+    text-align: center;
+    font-size: 40px;
+}
+
+.boton {
+    background-color: #6fa0ea;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1px black solid;
+}
