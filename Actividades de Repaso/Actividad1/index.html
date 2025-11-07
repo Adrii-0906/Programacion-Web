@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Actividad 1</title>
+        <link rel="stylesheet" href="css1.css">
+    </head>
+    <body>
+    <!-- Crea un script que reciba dos números y en función de un texto sume, reste, multiplique o divida, en el caso de la división tiene que decir el cociente y el resto de la operación. -->
+
+    <h1 id="title">Operaciones con dos numeros</h1>
+
+    <div>
+        <label for="numero1">Numero 1</label>
+        <input type="text" id="numero1" class="inputs">
+
+        <label for="operacion">Operacion ( +, -, *, / )</label>
+        <select name="Operaciones" id="operacion" class="inputs">
+            <option value="suma" selected>+</option>
+            <option value="resta">-</option>
+            <option value="multiplicacion">*</option>
+            <option value="division">/</option>
+        </select>
+
+        <label for="numero2">Numero 2</label>
+        <input type="text" id="numero2" class="inputs">
+    </div>
+
+    <button type="button" onclick="resultadoOperacion()">
+        Resultado
+    </button>
+
+
+    <h2 id="resultado"></h2>
+    <script src="js1.js"></script>
+    </body>
+</html>
