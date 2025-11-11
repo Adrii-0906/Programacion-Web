@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio6</title>
+        <link rel="stylesheet" href="css6.css">
+    </head>
+    <body>
+    <!-- Define un objeto constructor que sea un cliente, este cliente tiene un nombre y un saldo bancario (variables privadas), crea los métodos ingreso, retirada y consultar para añadir, retirar o consultar el estado de las cuentas. -->
+
+    <div id="contenedor">
+
+        <h1 id="cliente"></h1>
+        <h1 id="dinero"></h1>
+
+        <label for="ingreso">Ingreso</label>
+        <input type="number" id="ingreso" placeholder="Igrese la cantidad a desear">
+
+        <button type="button" onclick="ingresarDinero('ingreso')">Ingresar Dinero</button>
+        <button type="button" onclick="retirarDinero('ingreso')">Retirar Dinero</button>
+    </div>
+
+
+    <script src="js6.js"></script>
+    </body>
+</html>

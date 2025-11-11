@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejericcio7</title>
+        <link rel="stylesheet" href="css7.css">
+    </head>
+    <body>
+    <!--  Crea una clase Ficha, con su constructor, que se usará para almacenar el número de kilómetros recorridos por una persona en cada sesión de ejercicios. Las propiedades de la clase serán: nombre de la persona, distancia, un array con la distancia de cada una de las sesiones. Hay que implementar dos métodos, anotar: anota los kilómetros en el array y media: calcula la media de kilómetros recorridos -->
+
+    <div id="contenedor">
+
+        <h1 id="nombre"></h1>
+        <h1 id="sesiones"></h1>
+
+        <label for="kmSesion">Nueva sesion en Km: </label>
+        <input type="number" id="kmSesion" placeholder="Ingreso">
+
+        <br>
+
+        <button type="button" onclick="nuevaSesion('kmSesion')">Anadir Sesion</button>
+        <button type="button" onclick="mostrarMedia('media')">Calcular la media (Km)</button>
+        <h3 id="media"></h3>
+    </div>
+
+
+    <script src="js7.js"></script>
+    </body>
+</html>

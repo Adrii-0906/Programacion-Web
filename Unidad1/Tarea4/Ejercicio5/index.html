@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio5</title>
+        <link rel="stylesheet" href="css5.css">
+    </head>
+    <body>
+
+    <!-- Define un objeto, mediante una expresión, que tenga dos propiedades: precio y descuento y un método neto que devuelve el valor del objeto con el descuento aplicado. El método calculará el precio con el descuento aplicado. Los valores se pedirán por teclado. -->
+
+    <div id="contenedor">
+        <label for="precio">Precio del Producto: </label>
+        <input id="precio" type="number" placeholder="Introduce el precio">
+
+        <label for="descuento">Descuento del Producto: </label>
+        <input id="descuento" type="number" placeholder="Introduce el descuento">
+
+        <br>
+
+        <button type="button" onclick="mostrarPrecioDescuento(precio, descuento)">Ver el precio actualizado</button>
+
+        <br>
+
+        <div id="precioFinal"></div>
+    </div>
+
+    <script src="js5.js"></script>
+    </body>
+</html>

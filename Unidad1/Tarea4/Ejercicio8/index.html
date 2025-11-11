@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio8</title>
+        <link rel="stylesheet" href="css8.css">
+    </head>
+    <body>
+        <!--
+        Crea una clase que llamaremos Bus.
+        Sus atributos serán:
+            • capacidad: número máximo de pasajeros
+            • pasajeros: número de pasajeros (inicialmente 0)
+            • conductor: objeto conductor.
+        Sus métodos:
+            • subir(pasajeros): aumenta el numero de pasajeros
+            • bajar(pasajaeros): disminuye el número de pasajeros
+            • conductor: asigna un objeto conductor.
+        El objeto conductor es de una clase (Conductor) cuyos atributos son:
+            • nombre: nombre del conductor
+            • licencia: un número que identifica al conductor.
+        Al crear el objeto se asigna también el conductor no pueden subir más pasajeros que los máximos admitidos y no pueden bajar más de los que hay.
+        -->
+        <div id="contenedor">
+            <h2 id="datos"></h2>
+
+            <label for="cantidadPasajeros">Cantidad de Pasajeros:</label>
+            <input type="number" id="cantidadPasajeros" placeholder="Introduce la cantidad de pasajeros">
+
+            <br>
+
+            <button type="button" onclick="subirPasajeros('cantidadPasajeros')">Subir Pasajeros</button>
+            <button type="button" onclick="bajarPasajeros('cantidadPasajeros')">Bajar Pasajeros</button>
+
+            <br>
+
+            <button type="button" onclick="mostrarConductor('conductor')">Mostrar Conductor</button>
+            <h2 id="conductor"></h2>
+        </div>
+
+
+        <script src="js8.js"></script>
+    </body>
+</html>

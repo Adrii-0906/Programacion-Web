@@ -83,6 +83,21 @@ class Curso {
 
         this.mostrarAlumnosCurso();
     }
+
+    buscarAlumnoPorNombre(nombreAlumno) {
+        let divResultado = document.getElementById("notas");
+
+        divResultado.textContent = "";
+
+        for (const alumno of this.alumnos) {
+            if (alumno.nombre === nombreAlumno) {
+                divResultado.append(alumno.delvolverNombre());
+                divResultado.append(alumno.devolverNotas());
+                return;
+            }
+        }
+        divResultado.textContent = "Alumno no encontrado " + nombreAlumno;
+    }
 }
 
 const alumno1 = new Alumno("Adrian Rana", {
@@ -115,4 +130,8 @@ const curso1 = new Curso("Desarrollo de Aplicaciones Multiplataforma", "2DAM", a
 
 function mostrarAlumnos3() {
     curso1.mostrarInformacion();
+}
+
+function buscarAlumno(idAlumno) {
+    curso1.buscarAlumnoPorNombre(document.getElementById(idAlumno).value);
 }
