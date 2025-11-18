@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio6</title>
+        <link rel="stylesheet" href=css6.css>
+    </head>
+    <body>
+    <!-- Crea dos cuadros de texto en un html, crea un script que cada vez que se escriba en un cuadro de texto, solamente los números se escriban en el otro cuadro de texto (además de en el cuadro de texto donde estas escribiendo), en el segundo cuadro de texto no se puede escribir, implementa un evento para borrar el contenido de ambos cuadros de texto. Además, cuando estemos escribiendo en el primer cuadro de texto deberá resaltarse sobre el otro y cuando no volver a la normalidad. -->
+
+    <h3>Escribir numero del texto1 al 2</h3>
+
+    <div id="div-contenedor">
+        <label for="texto1">Texto 1</label>
+        <input type="text" id="texto1" class="normal" onfocus="resaltar(this)" onblur="quitarResalto(this)">
+
+        <label for="texto2">Texto 2</label>
+        <input type="text" id="texto2" class="normal" disabled>
+    </div>
+    <script src="js6.js"></script>
+    </body>
+</html>

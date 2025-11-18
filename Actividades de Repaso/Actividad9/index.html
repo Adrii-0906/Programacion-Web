@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 9</title>
+        <link rel="stylesheet" href="css9.css">
+    </head>
+    <body>
+    <!-- Crea un array que almacene varios elementos de la clase compra, la clase tendrá un array de string con los productos que tiene que comprar, fecha que contiene el día que se realizara la compra y un array que contenga el número de unidades de cada elemento de la lista de la compra. En la vista HTML se tiene que poder ver cuantos elementos compra tiene el array y poder visualizar uno a elección del usuario. -->
+
+    <h3>Gestion de historial de Compras</h3>
+
+    <div class="info">
+        Total de listas de compra almacenadas:
+        <span id="totalCompras"></span>
+    </div>
+
+    <div>
+        <label for="indiceCompra">Introduce el indice de la compra que quieres visualizar (0 a <span id="maxIndice"></span>):</label>
+        <input type="number" id="indiceCompra" min="0" value="0">
+        <button onclick="mostrarCompraSelecciona()">Visualizar Compra</button>
+    </div>
+
+    <hr>
+
+    <h4>Detalle de la Compra Seleccionada:</h4>
+    <div id="resultado">
+        Aqui se mostraran los detalles de la compra
+    </div>
+
+
+    <script src="js9.js"></script>
+    </body>
+</html>
