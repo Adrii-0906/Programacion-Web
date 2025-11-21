@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio Final (Faciles)</title>
+        <link rel="stylesheet" href="css4.css">
+    </head>
+    <body>
+        <!--
+        Enunciado: Tienes que crear un sistema para gestionar pedidos de un restaurante.
+
+        El usuario escribe el nombre de un plato (ej: "Hamburguesa").
+
+        Al pulsar el botón, se crea un objeto de la clase Pedido.
+
+        Al crearse, el pedido aparece en la pantalla con fondo Amarillo y el texto: "Preparando [Plato]...".
+
+        Automáticamente, pasados 3 segundos (simulando el cocinado), ese mismo pedido debe cambiar a color Verde y cambiar su texto a: "¡[Plato] Listo!".
+        -->
+
+        <h2>Cocina de Pedidos</h2>
+        <input type="text" id="inputPlato" placeholder="¿Qué quieres comer?">
+        <button onclick="hacerPedido()">¡Marchar Pedido!</button>
+
+        <div id="zonaCocina" style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+        </div>
+    <script src="js4.js"></script>
+    </body>
+</html>

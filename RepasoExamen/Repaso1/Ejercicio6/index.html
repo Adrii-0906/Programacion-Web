@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio Repaso 6</title>
+        <link rel="stylesheet" href="css6.css">
+    </head>
+    <body>
+        <!--
+         El Enunciado: Tienes que crear un "Carrito de la Compra" simple.
+
+        Crea una clase Producto con propiedades nombre y precio.
+
+        Crea un Array global vacío llamado carrito = [].
+
+        Al pulsar "Añadir":
+
+        Crea un objeto Producto con los datos del input.
+
+        Mételo en el Array carrito (push).
+
+        Llama a una función actualizarLista() que borre el HTML anterior y vuelva a pintar todos los productos del array en una lista <ul>.
+
+        Bonus (Cálculo): Cada vez que actualices la lista, calcula el Precio Total sumando todos los precios del array y muéstralo en un h3.
+         -->
+        <h2>🛒 Supermercado JS</h2>
+        <input type="text" id="nombreProd" placeholder="Producto (ej: Leche)">
+        <input type="number" id="precioProd" placeholder="Precio (ej: 20)">
+        <button onclick="agregarAlCarrito()">Añadir</button>
+
+        <h3>Lista de la compra:</h3>
+        <ul id="listaCarrito">
+        </ul>
+
+        <button type="button" onclick="calcularPrecioTotal()">Calcular Precio Compra</button>
+        <h3 id="totalPrecio">Total: 0 €</h3>
+
+        <script src="js6.js"></script>
+    </body>
+</html>

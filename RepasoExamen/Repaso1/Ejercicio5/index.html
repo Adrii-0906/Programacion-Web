@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio Repaso 4</title>
+        <link rel="stylesheet" href="css5.css">
+    </head>
+    <body>
+        <!--
+        Al crear un coche, recibe un nombre y un color.
+
+        Debe renderizar una barra de progreso (un div dentro de otro) que empiece al 0%.
+
+        Tiene un método arrancar().
+
+        Al arrancar, inicia un setInterval. Cada 100ms, el coche avanza una cantidad aleatoria (entre 1 y 5).
+
+        Debes actualizar el ancho (width) de su barra en el HTML.
+
+        Condición de victoria: Cuando el avance llegue o supere 100, el intervalo se detiene y el coche cambia de color (o pone un texto) indicando que ha llegado a la meta.
+        -->
+        <h2>Gran Premio JavaScript</h2>
+        <input type="text" id="nombrePiloto" placeholder="Nombre Piloto">
+        <select id="colorPiloto">
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="black">Negro</option>
+            <option value="purple">Morado</option>
+        </select>
+        <button onclick="iniciarCarrera()">¡Nuevo Participante!</button>
+
+        <div id="circuito">
+        </div>
+    <script src="js5.js"></script>
+    </body>
+</html>

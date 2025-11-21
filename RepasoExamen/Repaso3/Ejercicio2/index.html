@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 2 Repaso 2</title>
+        <link rel="stylesheet" href="css2.css">
+    </head>
+    <body>
+    <!-- Crear una web con varios cuadros de texto. La web tendrá una función llamada enfoque que se llamará cuando ocurra el evento onfocus de cada cuadro de texto. Cuando se dispare dicho evento se pondrá el color del fondo del cuadro gris claro y la letra en azul. Hacer que cuando se pierda el enfoque el cuadro tenga el formato original. --> 
+     
+    <div>
+        <input type="text" id="texto1" class="normal" onfocus="resaltado(this)" onblur="normal(this)">
+        <br><br>
+        <input type="text" id="texto2" class="normal" onfocus="resaltado(this)" onblur="normal(this)">
+    </div>
+
+    <script src="js2.js"></script>    
+    </body>
+</html>

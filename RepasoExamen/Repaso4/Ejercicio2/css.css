@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div {
+    background-color: blueviolet;
+    width: 500px;
+    height: 75px;
+    margin-top: 44%;
+    margin-right: 20px;
+    border-radius: 20px;
+}

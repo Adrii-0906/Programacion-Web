@@ -1,0 +1,17 @@
+.pista {
+    border: 1px solid #333;
+    background: #eee;
+    margin-bottom: 10px;
+    position: relative;
+    height: 40px;
+    width: 100%; /* La meta es el 100% */
+}
+.coche {
+    height: 100%;
+    width: 0%; /* Esto es lo que cambiarás con JS */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: width 0.1s linear; /* Suavizado opcional */
+}

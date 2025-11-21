@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da45bd83-83ad-48cb-a90f-108788646c6f" name="Changes" comment="" />
+    <list default="true" id="da45bd83-83ad-48cb-a90f-108788646c6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio1/css1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio1/js1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio2/css2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio2/js2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio3/css3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio3/js3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio4/css4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio4/js4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio5/css5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio5/js5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio6/css6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso1/Ejercicio6/js6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso2/Ejercicio1/css1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso2/Ejercicio1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso2/Ejercicio1/js1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso2/Ejercicio2/css2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso2/Ejercicio2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RepasoExamen/Repaso2/Ejercicio2/js2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actividad1/js1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad1/js1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actividad7/js7.js" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad7/js7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad1/Tarea2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad1/Tarea2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unidad1/Tarea3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unidad1/Tarea3/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +49,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="358yKM9nPUk16GCRv0Qw3FNb4GY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +66,9 @@
     "JavaScript Debug.index.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/adrian/Documentos/2DAM/Programacion-Web/Actividades de Repaso",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,6 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762505928452</updated>
       <workItem from="1762505929659" duration="4716000" />
+      <workItem from="1763686319850" duration="2313000" />
     </task>
     <servers />
   </component>

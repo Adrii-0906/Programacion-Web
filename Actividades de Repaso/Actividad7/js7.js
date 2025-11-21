@@ -33,7 +33,7 @@ function inicializarPrograma() {
     // Llama a crearTabla una vez para que se muestre el estado inicial (0 filas)
     crearTabla();
 
-    // ⭐️ Configura el intervalo para que la función iniciarContador se ejecute cada 1000ms (1 segundo)
+    // Configura el intervalo para que la función iniciarContador se ejecute cada 1000ms (1 segundo)
     intervalo = setInterval(iniciarContador, 1000);
 }
 

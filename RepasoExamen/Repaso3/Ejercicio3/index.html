@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 3 Repaso 2</title>
+        <link rel="stylesheet" href="css3.css">
+    </head>
+    <body>
+    <!-- Modificar el ejercicio anterior y añadir un botón que sirva para poder borrar todos los contenidos de los cuadros de texto de golpe. Usad un bucle y la función getElementsByTagName(). -->    
+
+        <div>
+            <input type="text" name="texto1" id="texto1" class="normal" onfocus="resaltado(this)" onblur="normal(this)">
+            <br><br>
+            <input type="text" name="texto2" id="texto2" class="normal" onfocus="resaltado(this)" onblur="normal(this)">
+            <button onclick="borrarContenido()">Borrar todo</button>
+        </div>
+    <script src="js3.js"></script>    
+    </body>
+</html>
