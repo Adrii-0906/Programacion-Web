@@ -23,6 +23,7 @@ function resultadoOperacion() {
 
         resultado.textContent = 'El resultado es ' + resultadoDivision;
 
+
     } else {
         alert('Datos no validos');
     }

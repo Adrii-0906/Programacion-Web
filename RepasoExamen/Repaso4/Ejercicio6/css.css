@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cronometro {
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+}

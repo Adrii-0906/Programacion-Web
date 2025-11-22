@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+    <!-- Crea un script que a través de una entrada de datos te cambie de divisa (por ejemplo, que cambie de euros a dólares). Tiene que tener al menos 3 monedas distintas y tiene que poder realizar la conversión de cualquiera de ellas. (1 punto)
+    Se debe crear un HTML para probar el ejercicio.
+    Se debe de poder introducir una cantidad monetaria por el documento
+    HTML.
+    Debe tener una salida de información (por la vista HTML o por consola, a
+    elección del alumno).
+    El script debe permitir la conversión entre los diferentes tipos de divisa. -->    
+
+        <div id="container">
+            
+            <label for="numero">Dime la cantidad:</label>
+            <input type="text" name="numero" id="numero">
+
+            <label for="divisa1">Divisa Elegida:</label>
+            <select name="divisa1" id="divisa1">
+                <option value="Euros">Euros</option>
+                <option value="Dolares">Dolares</option>
+                <option value="Libras">Libras</option>
+            </select>
+            <label for="divisa2">Divisa a Cambiar:</label>
+            <select name="divisa1" id="divisa2">
+                <option value="Euros">Euros</option>
+                <option value="Dolares">Dolares</option>
+                <option value="Libras">Libras</option>
+            </select>
+
+            <button onclick="cambiarDivisa()">Cambiar divisa</button>
+            <div id="texto">
+                <p id="parrafo"></p>
+            </div>
+        </div>
+
+    <script src="js.js"></script>    
+    </body>
+</html>

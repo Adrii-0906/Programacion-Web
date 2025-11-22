@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+    <!--
+        Crea un script con varios cuadros de texto, cuando el ratón esta encima del cuadro
+        el color de la letra y el tamaño del texto debe variar, cuando el ratón abandone el
+        cuadro de texto vuelva al estado anterior, cuando selecciones el cuadro de texto el
+        fondo tiene que cambiar de color y cuando no este seleccionado volver al original.
+        Para manipular el tamaño de la fuente por DOM se utiliza fontSize en vez de font-
+        size. (1 punto)
+         Se debe crear un HTML para probar el ejercicio.
+         Se modifica el cuadro de texto correspondiente al pasar por encima y vuelve
+        a su estado anterior.
+         Ocurren las diferentes modificaciones en los cuadros de texto y vuelven al
+        estado anterior una vez no está seleccionado.
+         Implementa los diferentes tipos de eventos correctamente.
+
+    -->    
+
+
+    <input type="text" name="texto1" id="texto1" class="normal" onmouseover="resaltar(this)" onmouseleave="normal(this)" onfocus="escribir(this)" onblur="noEscribir(this)">
+    <br><br>
+    <input type="text" name="texto2" id="texto2" class="normal" onmouseover="resaltar(this)" onmouseout="normal(this)" onfocus="escribir(this)" onblur="noEscribir(this)">
+
+
+    <script src="js.js"></script>    
+    </body>
+</html>
